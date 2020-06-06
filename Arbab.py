@@ -142,8 +142,8 @@ def login():
 		print "\033[1;97m☠☠☠☠☠☠☠☠☠☠☠☠☠☠\033[1;92m<><>\033[1;97m☠☠☠☠☠☠☠☠☠☠☠☠☠☠"
 	os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 
-		id = raw_input('\033[1;96m[+] \x1b[1;97mID/Email\x1b[1;92m: \x1b[1;96m')
-		pwd = raw_input('\033[1;96m[+] \x1b[1;97mPassword\x1b[1;92m: \x1b[1;96m')
+		id = raw_input('\033[1;96m[+]\x1b[1;97mID/Email\x1b[1;92m:\x1b[1;96m')
+		pwd = raw_input('\033[1;96m[+]\x1b[1;97mPassword\x1b[1;92m:\x1b[1;96m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
